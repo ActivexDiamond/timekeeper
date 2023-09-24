@@ -37,9 +37,9 @@ timekeeper = require "timekeeper"
 `timekeeper` is fully documented using Sumneko's LuaLS annotations, so as long as you use any IDE which supports LSPs (language server protocols) (E.g. Visual Studio, Neovim, etc...) you should automatically get autocompletion! 
 
 Troubleshooting auto-completion:
-1. Make sure that `timekeeper`s path is somewhere that LuaLS can see
-1.1. Somewhere inside your source folder.
-1.2. Not excluded by your LuaLS config.
+1. Make sure that `timekeeper`s path is somewhere that LuaLS can see:
+   - Somewhere inside your source folder.
+   - Not excluded by your LuaLS config.
 2. Make sure LuaLS sees your source folder as a "workspace" (you have a `.git`, `.luarc.json`, and/or other in your source folder). For more info on this see (here)[https://luals.github.io/wiki/configuration/].
 
 ## Public API
